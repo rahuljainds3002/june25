@@ -20,4 +20,4 @@ searchelement="an"
 rdd1=rdd.filter(lambda x:searchelement in x).collect()
 
 for i in rdd1:
-    print(i)
+    print(i )
